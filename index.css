@@ -136,17 +136,10 @@ header {
   align-items: center;
 }
 
-.selectedOnes > div {
-  display: flex;
+.selectedOnes > img {
   width: 169px;
-  height: 87px;
+  max-width: 15vw;
   float: left;
-  position: relative;
-}
-
-.selectedOnes > div > img {
-  width: 95px;
-  height: 86px;
 }
 
 .artist-1 {
@@ -205,3 +198,5 @@ header {
   height: 197.98px;
   border: 1px solid white;
 }
+
+/* --------------------------------- Main 2 --------------------------------- */
