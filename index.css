@@ -149,12 +149,13 @@ header {
   }
 
   .headerNav {
+    width: 100%;
     float: left;
     margin-bottom: 15px;
   }
 
   .headerNav a {
-    font-size: 14px;
+    font-size: 1.2em;
   }
 
   .headerButton {
