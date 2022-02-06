@@ -31,6 +31,7 @@ body {
 body::-webkit-scrollbar {
   width: 5px;
 }
+
 body::-webkit-scrollbar-thumb {
   border: 1px solid var(--subtitle-color);
   border-radius: 10px;
@@ -326,6 +327,7 @@ header {
   align-items: center;
   width: 99vw;
   height: 660px;
+  margin-bottom: 150px;
 }
 
 .numbers-2 {
@@ -337,6 +339,15 @@ header {
   width: 20vw;
   border-right: 1px solid #5a5757;
   border-bottom: 1px solid #5a5757;
+  text-align: center;
+}
+
+.numbers-2 h3 {
+  font-size: 5vw;
+}
+.numbers-2 h5 {
+  font-size: 2vw;
+  color: var(--subtitle-color);
 }
 
 .container-2 {
@@ -380,4 +391,81 @@ cite {
 
 .main-2 img {
   width: 100%;
+}
+
+/* --------------------------------- Main 3 --------------------------------- */
+
+.main-3 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 937px;
+}
+.line-3 {
+  width: 1px;
+  background-color: white;
+}
+
+.title-3 {
+  width: 100%;
+  font-size: 3.1em;
+  flex: 1;
+}
+
+.title-3 span {
+  color: var(--color-logo);
+}
+
+.main-3 > div {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  flex: 1;
+}
+
+.main-3 div:first-of-type .astronauts-3 {
+  margin-bottom: 50px;
+}
+
+.astronauts-3 {
+  display: block;
+  flex-direction: column;
+  max-width: 350px;
+  height: 328px;
+  max-height: 328px;
+  /* margin-bottom: 50px; */
+  position: relative;
+}
+
+.astronauts-3 h4 {
+  width: 80%;
+  font-size: 1.8em;
+  font-weight: 500;
+  float: left;
+  margin-bottom: 44px;
+}
+
+.astronauts-3 :nth-child(2) {
+  width: 20%;
+  max-width: 28px;
+  float: right;
+}
+
+.astronauts-3 p {
+  font-size: 1.25em;
+  text-align: right;
+  float: right;
+  margin-bottom: 26px;
+}
+
+.astronauts-3 p:first-of-type {
+  text-align: left;
+  float: left;
+}
+
+.astronauts-3 img:last-of-type {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
 }
