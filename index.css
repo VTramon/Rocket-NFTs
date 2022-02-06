@@ -511,7 +511,7 @@ h5 {
   }
 }
 
-/* --------------------------------- Main 3 --------------------------------- */
+/* --------------------------------- Main 4 --------------------------------- */
 
 .main-4 {
   display: flex;
@@ -524,6 +524,7 @@ h5 {
 
 .title-4 {
   margin-bottom: 120px;
+  text-align: center;
 }
 
 .title-4 span {
@@ -537,6 +538,9 @@ h5 {
     'artsit artsit artsit ';
   gap: 111px;
   width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 54px;
 }
 
 .artist-4 {
@@ -544,6 +548,7 @@ h5 {
   justify-content: space-around;
   align-items: center;
   width: 350px;
+  max-width: 90vw;
   height: 150px;
   background-color: var(--card-color);
 }
@@ -567,9 +572,28 @@ h5 {
   text-decoration: none;
   font-size: 1.25em;
   color: var(--text-color);
+  margin-bottom: 20px;
 }
 
 .link-4 img {
   width: 17px;
   margin-left: 13px;
+}
+
+@media (max-width: 1430px) {
+  .artists-4 {
+    grid-template:
+      'artsit artsit '
+      'artsit artsit'
+      'artsit artsit ';
+  }
+}
+
+@media (max-width: 950px) {
+  .artists-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
 }
