@@ -28,6 +28,14 @@ body {
   background-color: var(--body-background);
 }
 
+body::-webkit-scrollbar {
+  width: 5px;
+}
+body::-webkit-scrollbar-thumb {
+  border: 1px solid var(--subtitle-color);
+  border-radius: 10px;
+}
+
 main {
   display: flex;
   flex-direction: column;
