@@ -47,6 +47,18 @@ main {
   min-height: 100vh;
 }
 
+h3 {
+  font-size: 3.1em;
+}
+
+h4 {
+  font-size: 1.87em;
+}
+
+h5 {
+  font-size: 1.25em;
+}
+
 /* --------------------------------- Header --------------------------------- */
 
 header {
@@ -342,11 +354,7 @@ header {
   text-align: center;
 }
 
-.numbers-2 h3 {
-  font-size: 5vw;
-}
 .numbers-2 h5 {
-  font-size: 2vw;
   color: var(--subtitle-color);
 }
 
@@ -400,6 +408,7 @@ cite {
   flex-direction: column;
   width: 100%;
   min-height: 937px;
+  margin-bottom: 151px;
 }
 .line-3 {
   width: 1px;
@@ -408,7 +417,6 @@ cite {
 
 .title-3 {
   width: 100%;
-  font-size: 3.1em;
   flex: 1;
   margin-left: 8vw;
 }
@@ -452,16 +460,21 @@ cite {
   float: right;
 }
 
-.astronauts-3 p {
+.astronauts-3 p,
+h5 {
   font-size: 1.25em;
-  text-align: right;
-  float: right;
   margin-bottom: 26px;
 }
 
-.astronauts-3 p:first-of-type {
+.astronauts-3 h5 {
   text-align: left;
   float: left;
+}
+
+.astronauts-3 p {
+  float: right;
+  text-align: right;
+  color: var(--color-logo);
 }
 
 .astronauts-3 img:last-of-type {
